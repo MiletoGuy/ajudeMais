@@ -1,0 +1,66 @@
+.row {
+    margin: 0;
+}
+header {
+    background-color: #009F93;
+}
+.btn-primary {
+    height: 42px;
+    width: 104px;
+}
+.label-menu {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+div#breadcrumb {
+    background-color: #535353;
+}
+div#breadcrumb h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.btn-back {
+    font-family: Helvetica, sans-serif;
+}
+#linha2 {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-top: 50px;
+}
+.rodape {
+    background-color: #009F93;
+    margin-top: 70px;
+    font-family: Helvetica, sans-serif;
+}
+.rodape-title {
+    font-size: 25px;
+    color:#FFF;
+    font-weight: bold;
+}
+.dados {
+    color: #fff;
+}
+.img-cartoes {
+    width: 350px;
+}
+.dir-reserv {
+    padding-top: 32px;
+    color: #fff;
+}
+.img-logo-grande {
+    width: 380px;
+}
+.inst-title {
+    font-family: Helvetica, sans-serif;
+    color: #de125b;
+    font-size: 30px;   
+    font-weight: bold;
+}
+.text {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 17px;
+}

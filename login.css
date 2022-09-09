@@ -1,0 +1,105 @@
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.label-formulario{
+    color: #de125b;
+    font-weight: bold;
+    font-size: 20px;  
+    padding-top: 20px;
+}
+.row {
+    margin: 0;
+}
+.container-fluid {
+    padding-top: 70px;
+}
+header {
+    background-color: #009F93;
+}
+.btn-primary {
+    height: 42px;
+    width: 104px;
+}
+.container-menu {
+    line-height: 25px;
+}
+.label-menu {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+div#breadcrumb {
+    background-color: #535353;
+}
+div#breadcrumb h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.btn-back {
+    font-family: Helvetica, sans-serif;
+}
+.spacement-bar {
+    padding-top: 40px;
+}
+.cad-count {
+    color: #009f93;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+#linha {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-top: 70px;
+}
+#linha2 {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-top: 50px;
+}
+.btn-lg {
+    height: 60px;
+}
+.sem-conta {
+    color: #535353;
+    text-align: center;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+}
+.login-alternativo {
+    color: #535353;
+    text-align: center;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.login-redes {
+    text-align: center;
+    padding-top: 20px;
+}
+.rodape {
+    background-color: #009F93;
+    margin-top: 70px;
+    font-family: Helvetica, sans-serif;
+}
+.rodape-title {
+    font-size: 25px;
+    color:#FFF;
+    font-weight: bold;
+}
+.dados {
+    color: #fff;
+}
+.img-cartoes {
+    width: 350px;
+}
+
+.dir-reserv {
+    padding-top: 32px;
+    color: #fff;
+}

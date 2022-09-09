@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="cadastro.js"></script>
+        <link href="cadastro.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="jquery.mask.test.js"></script>
+        <title>Ajude Mais - Criar Causa</title>
+    </head>
+    <body>
+        <p>Enviar Imagem:</p>
+        <form action="/action_page.php">
+          <input type="file" id="myFile" name="filename">
+        </form>
+        <p>
+            Digite o nome da sua causa
+        </p>
+        <p>
+            <input type="text" id="nome" value="">
+        </p>
+        <p>
+            Nos diga um pouco sobre a causa
+        </p>
+        <p>
+            <textarea rows="20" type="text" id="descrição"></textarea>
+        </p>
+        <p>
+            Tipo de doação
+        </p>
+        <p>
+            <select name="tipodoacao" size="1">
+                <option value="" disabled selected>Escolha o tipo de doação</option>
+                <option value="comida">Comida</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="roupa">Roupa</option>
+            </select>
+        </p>
+        <p>
+            Meta de Doação
+        </p>
+        <p>
+            <input type="number" id="meta" value="">
+        </p>
+        <p>
+            <button onclick=Registro()> CRIAR CAUSA </button>
+        </p>
+        <p>
+            <output name="imagemuploaded" id="imagemuploaded"></output>
+        </p>
+        <p>
+            <output name="nomeregistrado" id="nomeregistrado"></output>
+        </p>
+        <p>
+            <output name="descriçãoregistrada" id="descriçãoregistrada"></output>
+        </p>
+        <p>
+            <output name="tiporegistrado" id="tiporegistrado"></output>
+        </p>
+        <p>
+            <output name="metaregistrada" id="metaregistrada"></output>
+        </p>
+        <script>
+            function Registro(){
+                document.getElementById("imagemuploaded").value = document.getElementById("myFile").value
+                document.getElementById("nomeregistrado").value ="Nome da sua causa: "+document.getElementById("nome").value
+                document.getElementById("descriçãoregistrada").value ="Descrição: "+document.getElementById("descrição").value
+                document.getElementById("tiporegistrado").value = document.getElementById("tipodoacao").value
+                document.getElementById("metaregistrada").value ="Meta de doação: "+document.getElementById("meta").value
+            }
+        </script>
+    </body>
+</html>

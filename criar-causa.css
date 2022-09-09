@@ -1,0 +1,68 @@
+.row {
+    margin: 0;
+}
+header {
+    background-color: #009F93;
+}
+.btn-primary {
+    height: 42px;
+    width: 104px;
+}
+.label-menu {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+div#breadcrumb {
+    background-color: #535353;
+}
+div#breadcrumb h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.btn-back {
+    font-family: Helvetica, sans-serif;
+}
+#linha2 {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-top: 50px;
+}
+.rodape {
+    background-color: #009F93;
+    margin-top: 70px;
+    font-family: Helvetica, sans-serif;
+}
+.rodape-title {
+    font-size: 25px;
+    color:#FFF;
+    font-weight: bold;
+}
+.dados {
+    color: #fff;
+}
+.img-cartoes {
+    width: 350px;
+}
+.dir-reserv {
+    padding-top: 32px;
+    color: #fff;
+}
+.cad-count {
+    color: #009f93;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.cad-login {
+    color: #535353;
+    text-align: center;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+}
+.container-fluid {
+    padding-top: 70px;
+}
