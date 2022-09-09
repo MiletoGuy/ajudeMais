@@ -1,7 +1,7 @@
 function Login(){
         
-    var email1 = (document.getElementById("e-mail").value);
-    var senha1 = (document.getElementById("senha").value);
+    var email1 = document.getElementById("e-mail").value;
+    var senha1 = document.getElementById("senha").value;
     var email2 = localStorage.getItem("Email");
     var senha2 = localStorage.getItem("Senha");
     

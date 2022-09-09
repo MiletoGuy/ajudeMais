@@ -1,0 +1,1 @@
+select * from usuario where email = 'tales@email.com' and senha = crypt('senha',senha);
