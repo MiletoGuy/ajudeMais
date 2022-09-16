@@ -66,3 +66,9 @@ div#breadcrumb h2 {
 .container-fluid {
     padding-top: 70px;
 }
+.senhorflex{
+    display: flex;
+}
+.senhorflex p{
+    padding-right: 10px;
+}
