@@ -172,7 +172,6 @@ div#breadcrumb h2 {
 
 .saldo-disponivel {
     margin-bottom: 60px;
-    padding: 0 15px;
 }
 
 .linksin {
@@ -192,19 +191,23 @@ div#breadcrumb h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .instright-22 {
-    padding: 0 15px;
+
     display: flex;
     padding-bottom: 15px;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .inst1 {
+    display: flex;
+    flex-direction:column;
     width: 30%;
-    height: 400px;
+    height: auto;
     border: solid 2px #e2e2e2;
     border-radius: 4px;
     padding-bottom: 15px;
@@ -219,20 +222,19 @@ div#breadcrumb h2 {
 .barra {
     margin-top: 15px;
     margin-bottom: 10px;
-    width: 90%;
+    width: 100%;
     height: 7px;
-    margin-left: 5%;
     background-color: #e2e2e2;
 }
   
 .progresso {
-    width: 10%;
+    width: 45%;
     height: 100%;
     background-color: #009F93;
 }
 
 .causas-caxa {
-    
+    height: auto;
 }
 
 .doado-meta {
@@ -240,6 +242,7 @@ div#breadcrumb h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .doado-meta2 {
@@ -299,4 +302,25 @@ div#breadcrumb h2 {
     height: 40px;
     width: 100%;
     margin-top: 15px;
+}
+
+.textt {
+    height: 40px;
+    overflow: hidden;
+}
+
+.texttt {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 14px;
+    margin: 0;
+} 
+
+.textt:hover {
+    height: auto;
+}
+
+.margem {
+    margin-right: 5%;
+    margin-left: 5%;
 }
