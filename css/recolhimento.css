@@ -1,0 +1,154 @@
+
+.row {
+    margin: 0;
+}
+
+header {
+    background-color: #009F93;
+}
+
+.btn-primary {
+    height: 42px;
+    width: 104px;
+}
+
+.label-menu {
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div#breadcrumb {
+    background-color: #535353;
+}
+
+div#breadcrumb h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.btn-back {
+    font-family: Helvetica, sans-serif;
+}
+
+#linha2 {
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    padding-top: 50px;
+}
+
+.rodape {
+    background-color: #009F93;
+    margin-top: 70px;
+    font-family: Helvetica, sans-serif;
+}
+
+.rodape-title {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.dados {
+    color: #fff;
+}
+
+.img-cartoes {
+    width: 350px;
+}
+
+.dir-reserv {
+    padding-top: 32px;
+    color: #fff;
+}
+
+.img-logo-grande {
+    width: 380px;
+}
+
+.inst-title {
+    font-family: Helvetica, sans-serif;
+    color: #de125b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 17px;
+}
+
+.nome-perfil {
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.ver-perfil {
+    font-family: Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: light;
+    font-size: 12px;
+    height: 14px;
+}
+
+.caxa-perfil {
+    display: flex;
+    padding-left: 60px;
+}
+
+.img-perfil-caxa {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #de125b;
+    margin-right: 10px;
+}
+
+.img-perfil {
+    height: 100%;
+    width: 100%;
+}
+
+.ver-nome-caxa {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img-perfil-grande {
+    border: solid 4px #de125b;
+    margin-right: 60px;
+    height: 220px;
+    width: 220px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+}
+
+.cad-count {
+    color: #009f93;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+.cad-login {
+    color: #535353;
+    text-align: center;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+}
+.container-fluid {
+    padding-top: 70px;
+}
