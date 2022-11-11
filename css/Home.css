@@ -50,18 +50,25 @@ div#breadcrumb h2 {
     padding-top: 32px;
     color: #fff;
 }
-.cad-count {
+.title1 {
     color: #009f93;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
     font-family: Helvetica, sans-serif;
 }
-.cad-login {
+.subtitle {
     color: #535353;
     text-align: center;
     font-size: 17px;
     font-family: Helvetica, sans-serif;
+}
+.subtitle2 {
+    color: #535353;
+    text-align: center;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 .container-fluid {
     padding-top: 70px;
@@ -78,8 +85,335 @@ div#breadcrumb h2 {
     padding-left:30px;
  
 }
+.banner-bar{
+    display: flex;
+    align-items: center;
+}
+.doardinheiro{
+    padding: 15px;
+    background-color: #de125b;
+    height: 80px;
+}
+.doaralimento{
+    padding: 15px;
+    background-color: #f73377;
+    height: 80px;
+}
+.doarroupa{
+    padding: 15px;
+    background-color: #de125b;
+    height: 80px;
+}
+.criarcausa{
+    padding: 15px;
+    background-color: #f73377;
+    height: 80px;
+    align-items: center;
 
-.container-home{
-    padding-right: 10px;
-    
+}
+.banner-bar-title{
+    color: #FFF;
+}
+.causaspop{
+    padding-top: 70px;
+}
+.caxa-perfil {
+    display: flex;
+    padding-left: 60px;
+}
+
+.img-perfil-caxa {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #de125b;
+    margin-right: 10px;
+}
+
+.img-perfil {
+    height: 100%;
+    width: 100%;
+}
+
+.ver-nome-caxa {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img-perfil-grande {
+    border: solid 4px #de125b;
+    margin-right: 60px;
+    height: 220px;
+    width: 220px;
+}
+
+.biografia {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009F93;
+    padding-top: 15px;
+}
+
+.saldo {
+    font-family: Helvetica, sans-serif;
+    color: #969696;
+    font-weight: light;
+    font-size: 16px;
+}
+
+.dinhero {
+    font-family: Helvetica, sans-serif;
+    color: #009F93;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.rs {
+    font-family: Helvetica, sans-serif;
+    color: #de125b;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 6px;
+    margin-bottom: 0px;
+    float: bottom;
+}
+
+.dinhero-caxa {
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-right: 40px;
+}
+
+.caxa-retirar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.saldo-disponivel {
+    margin-bottom: 60px;
+}
+
+.linksin {
+    font-family: Helvetica, sans-serif;
+    color: #de125b;
+    font-size: 20px;   
+    font-weight: bold;
+    text-align: right;
+}
+
+.caxa-flex {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+}
+
+.instright-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.instright-22 {
+
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.inst1 {
+    display: flex;
+    flex-direction:row;
+}
+
+.img-causa-caxa {
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+}
+
+.barra {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 7px;
+    background-color: #e2e2e2;
+}
+  
+.progresso {
+    width: 45%;
+    height: 100%;
+    background-color: #009F93;
+}
+
+.causas-caxa {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.doado-meta {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.doado-meta2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dota {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 17px;
+    margin: 0;
+}
+
+.inst-title-2 {
+    font-family: Helvetica, sans-serif;
+    color: #de125b;
+    font-size: 16px;   
+    font-weight:bold;
+    margin: 0;
+}
+
+.titulo-causa {
+    font-family: Helvetica, sans-serif;
+    color: #535353;
+    font-size: 20px;   
+    font-weight: bold;
+    margin: 0;
+}
+
+.caxa-texto {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.dota2 {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dota22 {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 10px;
+    margin: 0;
+}
+
+.retirtar2 {
+    background-color: #de125b;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.textt {
+    height: 40px;
+    overflow: hidden;
+}
+
+.texttt {
+    font-family: Helvetica, sans-serif;
+    color: #524942;
+    font-size: 14px;
+    margin: 0;
+} 
+
+.textt:hover {
+    height: auto;
+}
+
+.margem {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.pes-div {
+    text-align: center;
+}
+
+.pesquisa {
+    height: 40px;
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 10%;
+}
+
+.but {
+    background-color: #de125b;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 4px;
+    height: 40px;
+    width: 10%;
+    position: relative;
+}
+.moldure{
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    height: auto;
+    border: solid 2px #e2e2e2;
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin: 30px;
+}
+.layer3{
+    background-color: #EFEFEF;
+
+}
+.lastdonation-content{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+    border-color:#009F93;
+    padding: 10px;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.name{
+    color:#de125b;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.nome-causa{
+    color:#de125b;
+    font-weight: bold;
+}
+.content-dir{
+    padding-left: 200px;
+}
+.timer{
+    color: #979797;
+    align-items: center;
+}
+.valordonation{
+    font-size: 26px;
+    color:#de125b;
+    font-weight: bold;
+}
+.lastdonation{
+    padding-bottom: 50px;
 }
